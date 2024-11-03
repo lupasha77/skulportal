@@ -1,0 +1,35 @@
+school-portal/
+├── backend/
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── parentController.js
+│   │   └── studentController.js
+│   ├── middleware/
+│   │   ├── authMiddleware.js
+│   │   └── validateMiddleware.js
+│   ├── models/
+│   │   ├── userModel.js
+│   │   ├── parentModel.js
+│   │   └── studentModel.js
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   ├── parentRoutes.js
+│   │   └── studentRoutes.js
+│   ├── .env
+│   └── server.js
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── auth/
+│   │   │   ├── layout/
+│   │   │   └── shared/
+│   │   ├── pages/
+│   │   ├── context/
+│   │   ├── hooks/
+│   │   ├── utils/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   └── vite.config.js
+└── README.md
